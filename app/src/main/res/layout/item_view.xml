@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:weightSum="5"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        >
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/iv_image"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            />
+        <TextView
+            android:layout_weight="3"
+            android:id="@+id/tv_name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="achdanepiloksa"
+            android:gravity="center"
+            android:textSize="25sp"
+            />
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_delete"
+            android:text="delete"
+            android:textSize="11dp"
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
